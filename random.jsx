@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 class Random extends React.Component {
   constructor(props){
     super(props)
-    this.state={color:[x,y,z]}
+    this.state={color:[7,8,9]}
   }
   componentDidMount() {
     this.applyColor();
